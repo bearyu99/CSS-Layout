@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/8f896ec8f6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="main">
+    <ul class="board">
+      <li class="item">
+        <div class="date">
+          <span>
+            11.24 22:00
+          </span>
+        </div>
+        <div class="title">
+          <p>
+            대한민국 vs 우루과이
+          </p>
+        </div>
+        <div class="score">0 : 0</div>
+        <div class="stream">
+          <div class="btn" onclick="window.open('https://naver.me/Gu0oZyZp')">
+            <span>
+              다시보기
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="date">
+          <span>
+            11.25 01:00
+          </span>
+        </div>
+        <div class="title">
+          <p>포르투갈 vs 가나</p>
+        </div>
+        <div class="score">3 : 2</div>
+        <div class="stream">
+          <div class="btn" onclick="window.open('https://m.sports.naver.com/qatar2022/video/1008967')">
+            <span>
+              다시보기
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="date">
+          <span>
+            11.25 04:00
+          </span>
+        </div>
+        <div class="title">
+          <p>
+            브라질 vs 세르비아
+          </p>
+        </div>
+        <div class="score">2 : 0</div>
+        <div class="stream">
+          <div class="btn" onclick="window.open('https://m.sports.naver.com/qatar2022/video/1009044')">
+            <span>
+              다시보기
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="date">
+          <span>
+            11.25 19:00
+          </span>
+        </div>
+        <div class="title">
+          <p>웨일스 vs 이란</p>
+        </div>
+        <div class="score">0 : 2</div>
+        <div class="stream">
+          <div class="btn" onclick="window.open('https://m.sports.naver.com/qatar2022/video/1009295')">
+            <span>
+              다시보기
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="date">
+          <span>
+            11.25 22:00
+          </span>
+        </div>
+        <div class="title">
+          <p>카타르 vs 세네갈</p>
+        </div>
+        <div class="score">1 : 3</div>
+        <div class="stream">
+          <div class="btn" onclick="window.open('https://m.sports.naver.com/qatar2022/video/1009427')">
+            <span>
+              다시보기
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="date">
+          <span>
+            11.26 01:00
+          </span>
+        </div>
+        <div class="title">
+          <p>네덜란드 vs 에콰도르</p>
+        </div>
+        <div class="score">1 : 1</div>
+        <div class="stream">
+          <div class="btn" onclick="window.open('https://m.sports.naver.com/qatar2022/video/1009472')">
+            <span>
+              다시보기
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="date">
+          <span>
+            11.26 04:00
+          </span>
+        </div>
+        <div class="title">
+          <p>잉글랜드 vs 미국</p>
+        </div>
+        <div class="score">0 : 0</div>
+        <div class="stream">
+          <div class="btn" onclick="window.open('https://m.sports.naver.com/qatar2022/video/1009562')">
+            <span>
+              다시보기
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="date">
+          <span>
+            11.26 19:00
+          </span>
+        </div>
+        <div class="title">
+          <p>튀니지 vs 호주</p>
+        </div>
+        <div class="score">0 : 1</div>
+        <div class="stream">
+          <div class="btn" onclick="window.open('')">
+            <span>
+              다시보기
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="date">
+          <span>
+            11.26 22:00
+          </span>
+        </div>
+        <div class="title">
+          <p>폴란드 vs 사우디아라비아</p>
+        </div>
+        <div class="score">경기 전</div>
+        <div class="stream">
+          <div class="btn" onclick="window.open('')">
+            <span>
+              다시보기
+            </span>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <aside id="bar">
+    <div class="top">
+      <span>
+        Score Board
+      </span>
+    </div>
+    <i class="fa-solid fa-futbol"></i>
+    <div class="bottom">
+      <span>
+        بطولة كأس العالم لكرة القد
+      </span>
+    </div>
+  </aside>
+  <section id="news">
+    <div class="head">
+      <label>
+        <input type="radio" id="recently" name="news" checked />
+        <span>최신순</span>
+      </label>
+      <label>
+        <input type="radio" id="popularly" name="news" />
+        <span>인기순</span>
+      </label>
+      <label>
+        <input type="radio" id="korea" name="news" />
+        <span>대한민국</span>
+      </label>
+    </div>
+    <div class="news-group">
+      <div class="news-item">
+        <p>호날두 향한 조롱? 오마주?…가나선수 호우 세리머니 화제</p>
+        <p>
+          (엑스포츠뉴스 박윤서 기자) 일본 매체도 우루과이 공격진을 꽁꽁 묶은 한국 수비진을 치켜세웠다.파울루 벤투 감독이 이끄는 대한민국 축구대표팀
+        </p>
+        <div>
+          <span onclick="window.open('https://n.news.naver.com/sports/qatar2022/article/311/0001528435')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>곰인 줄 알았던 벤투, 최고의 여우였다 [카타르월드컵]</p>
+        <p>
+          고집과 불통? 곰인 줄 알았던 파울루 벤투 감독은 최고의 여우였다.한국 축구대표팀은 24일(한국시간) 카타르 에듀케이션 시티 스타디움에서 열린 2022 국제축구연맹(FIFA) 카타르월드컵 H조
+        </p>
+        <div>
+          <span onclick="window.open('https://www.mk.co.kr/article/10544525')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>'벤투호 복귀전이 WC 1차전' 이강인, 이 정도로 '강심장'이었나[오!쎈 도하]</p>
+        <p>
+          24일(현지시간) 카타르 도하 에듀케이션 시티 스타디움에서 2022 국제축구연맹(FIFA) 카타르 월드컵 조별리그 H조 대한민국과 우루과이의 경기가 진행됐다.전반 한국 이강인이 드리블 돌파를 하고
+        </p>
+        <div>
+          <span onclick="window.open('http://www.osen.co.kr/article/G1111996030')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>해외 팬들도 "코리아 9번 누구야"... 인스타 팔로워 30만으로 치솟은 조규성</p>
+        <p>
+          24일(현지시간) 카타르 알라이얀 에듀케이션 시티 스타디움에서 열린 2022 카타르 월드컵 H조 1차전 대한민국과 우루과이의 경기에서 조규성이 슈팅 후 아쉬워하고 있다.
+          알라이얀(카타르)=뉴시스"방탄소년단(BTS) 미안, 오늘만은 한국 9번을 '덕질(simp)'해야겠어."
+        </p>
+        <div>
+          <span onclick="window.open('https://www.hankookilbo.com/News/Read/A2022112512490003128?did=NA')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>日도 놀랐다…"손흥민은 정말 월드 클래스</p>
+        <p>
+          "손흥민(30·토트넘 훗스퍼)은 정말 월드 클래스다."손흥민은 24일 오후 10시(한국시간) 카타르 알 라얀 에듀케이션 시티 스타디움에서 열린 2022 국제축구연맹(FIFA)
+        </p>
+        <div>
+          <span onclick="window.open('https://www.spotvnews.co.kr/news/articleView.html?idxno=566537')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>이로스 감독, BBC 기자에 “아프간 철수 잉글랜드 감독에 질문을”</p>
+        <p>
+          카를로스 케이로스 이란 감독이 기자회견장을 떠나면서 사이마 카릴 영국 BBC 페르시아 기자에게 다가가 차분하면서도 팽팽한 설전을 벌이고 있다.동영상 캡처영국 BBC의 동영상을 보면서 얼마 전
+        </p>
+        <div>
+          <span onclick="window.open('https://n.news.naver.com/sports/qatar2022/article/081/0003320117')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>"감사합니다"…'팔로어 2만→35만' 우루과이전 스타된 조규성</p>
+        <p>
+          조규성. 연합뉴스한국과 우루과이의 2022 카타르월드컵 조별리그 H조 1차전이 열린 24일(현지시간) 카타르 알라얀의 에듀케이션 시티 스타디움.0대0으로 맞선 후반 29분 황의조(올림피아코스) 대신
+        </p>
+        <div>
+          <span onclick="window.open('https://n.news.naver.com/sports/qatar2022/article/079/0003711139')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>조별리그 2차전 '무승' 한국 축구…이번엔 징크스 깰까</p>
+        <p>
+          카타르 월드컵 조별리그 첫 경기에서 우루과이와 비긴 벤투호는 이제 가나와 2차전을 앞두고 있습니다.특히 가나전은 벤투호, 축구 팬, 나아가 한국 축구에 중요한 의미가
+        </p>
+        <div>
+          <span onclick="window.open('https://n.news.naver.com/sports/qatar2022/article/055/0001015794')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>“친구야, 널 만나서 행복해”… ‘절친’ 이강인 만난 우루과이 공격수 ‘활짝’</p>
+        <p>
+          이강인과 만난 우루과이 공격수 막시 고메스.이강인(21·마요르카)이 옛 동료 막시 고메스(26·트라브존스포르)와 만났다. 월드컵에서 만난 둘은 ‘인증샷’을 남겼다. 한국과
+          우루과이는 24일(한국시간) 카타르 알 라얀의 에듀케이션 시티 스타디움에서 열린 2022 국제축구연맹
+        </p>
+        <div>
+          <span onclick="window.open('https://n.news.naver.com/sports/qatar2022/article/241/0003242723')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>
+          "쫄지도 떨지도않고...이런 첫경기 처음" 벤투호,'자카르타金'이후 4년 믿음 통했다 </p>
+        <p>
+          대~한민국이 24일(한국시각) 카타르월드컵 첫 경기에서 강호 우루과이를 상대로 시종일관 대등한 승부 끝에 0대0으로 비기며 승점 1점을 꿰찼다. FIFA랭킹 28위 한국과 FIFA랭킹 14위
+        </p>
+        <div>
+          <span onclick="window.open('https://n.news.naver.com/sports/qatar2022/article/076/0003943475')">
+            더 보기
+          </span>
+        </div>
+      </div>
+      <div class="news-item">
+        <p>월드컵 첫 골인데 마치 사과하듯… 엠볼로의 특별한 ‘세리머니’</p>
+        <p>
+          공격수 브렐 엠볼로(25)가 두 번째 출전한 월드컵 무대에서 잊지 못할 경험을 했다.24일(한국시간) 카타르 알와크라의 알자눕 스타디움에서 열린 2022 카타르 월드컵
+          조별리그 G조 스위스와 카메룬의 경기.엠볼로는 0-0으로 맞선 후반 3분 제르단 샤키리가 오른쪽 측면에서 연결한 볼을 문전 중앙...
+        </p>
+        <div>
+          <span onclick="window.open('https://n.news.naver.com/sports/qatar2022/article/382/0001018349')">
+            더 보기
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+
+</html>
