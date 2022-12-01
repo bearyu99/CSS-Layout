@@ -1,5 +1,5 @@
 # CSS-Layout
-FLEX와 GRID를 사용해 기초적인 CSS 레이아웃을 작성하였습니다.
+`FLEX`와 `GRID`를 사용해 여러 사이트를 클론 코딩하였습니다.
 
 ## [Paris Color](https://bearyu99.github.io/CSS-Layout/Paris-Color)
 ![Preview](Paris-Color/preview.png)
